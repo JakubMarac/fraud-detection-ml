@@ -74,12 +74,3 @@ Hiperparametryzacja (np. RandomizedSearchCV) poprawia wyniki o kilka punktów pr
 Modele drzewiaste mają tendencję do przeuczenia, dlatego stosowano ograniczenia (max_depth, ccp_alpha).
 📌 Główny wniosek: model regresji logistycznej z class_weight='balanced' i dobranym C najlepiej wykrywa fraudy, mimo niskiej precyzji.
 
-📚 Dalsze kroki
-
-Przetestować modele ensemble: Random Forest, XGBoost, LightGBM
-
-Dodać automatyczny raport w formacie .pdf
-
-Spróbować oversamplingu metodą ADASYN
-
-Przeprowadzić analizę wpływu progu decyzyjnego (threshold tuning)  
